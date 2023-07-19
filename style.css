@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&family=Raleway:wght@300&display=swap');
+
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Poppins','sans-serif';
+
+}
+
+body {
+    background: aqua;
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    width: 100vw;
+    
+}
+.container {
+    padding: 25px 50px;
+    background: gray;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    gap:15px;
+}
+
+.message-form {
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    align-items: center;
+}
+.message{
+    width: 450px;
+    outline: none;
+    height: 40px;
+    padding: 0 6px;
+}
+.button {
+    width: 100px;
+    text-align: center;
+    padding: 10px 20px;
+    background: burlywood;
+    outline: none;
+    color: black;
+    font-weight: 700;
+    cursor: pointer;
+}
+.feedback{
+    color: aquamarine;
+    font-size: 25px;
+    display:none;
+}
+.active{
+    display: block;
+}
+.message-content{
+    color: rgb(145, 216, 14);
+    font-size: 20px;
+}
